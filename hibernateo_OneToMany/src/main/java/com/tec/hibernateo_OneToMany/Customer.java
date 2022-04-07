@@ -1,4 +1,4 @@
-package com.tec.hibernateo_OneToOne;
+package com.tec.hibernateo_OneToMany;
 
 import java.util.List;
 

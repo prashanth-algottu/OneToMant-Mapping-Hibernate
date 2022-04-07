@@ -1,4 +1,4 @@
-package com.tec.hibernateo_OneToOne;
+package com.tec.hibernateo_OneToMany;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -14,7 +14,7 @@ public class Orders
 	private String item;
 	private int price;
 	
-	@JoinColumn(name = "custID")
+	@JoinColumn(name = "chinnnu")
 	@ManyToOne(cascade = CascadeType.ALL)
 	private Customer customer;
 
